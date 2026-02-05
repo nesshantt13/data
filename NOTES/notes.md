@@ -7,3 +7,9 @@
     d - decimal interger
     f - float
     g - general
+
+
+
+    bypass code =
+
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass

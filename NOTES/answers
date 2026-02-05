@@ -68,3 +68,26 @@ elif score >= 2:
     print("Good job!")
 else:
     print("Better luck next time!")
+
+
+    # Chapter 4 - Conditional Statements
+    # Exercise answer :
+
+weight = 70  # weight in kg
+height = 1.75  # height in meters
+
+# Calculate BMI
+bmi = weight / (height ** 2)
+
+# Categorize BMI
+if bmi < 18.5:
+    category = "Underweight"
+elif bmi < 24.9:
+    category = "Normal weight"
+elif bmi < 29.9:
+    category = "Overweight"
+else:
+    category = "Obesity"
+
+print(f"Your BMI is: {bmi:.3f}")
+print(f"Category: {category}")
